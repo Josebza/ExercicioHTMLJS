@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML JS</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <section class="">
+    <h1>Formulario de Campos Numericos </h1>
+
+    <p class="inst">Bom dia, Boa tarde, Boa noite instrução desse codigo basico e saber se o Campo A e menor que o Campo B assim podera seguir com o processo</p>
+
+    <form id="form-campo">
+        <p>Campo A </p>
+        
+        <input type="number" id="campoA" required placeholder="Numero Campo A"> 
+
+        <p>Campo B</p>
+        <input type="number" id="campoB" required placeholder="Numero Campo B">
+        <p class="error-message" style="display: none;"> O valor do campo B tem que ser maior que o Campo A ></p>
+        <button type="submit" id="btn-c">Verificar</button>
+        
+    </form>
+        <p class="success-message">O valor da B e maior que o Valor da A</p>
+    </section>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
